@@ -3,8 +3,7 @@ title: "Quarto-2"
 author: "Jacqueline Gunawan"
 format: html
 ---
-
-
+gvg
 ```{r fig-carsline}
 #| fig-label: cars-plot
 #| fig-cap: "Distance taken for a car to stop, against it's speed during the test."
