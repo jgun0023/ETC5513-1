@@ -1,0 +1,35 @@
+---
+title: "Quarto-2"
+author: "Jacqueline Gunawan"
+format: html
+---
+
+
+```{r fig-carsline}
+#| fig-label: cars-plot
+#| fig-cap: "Distance taken for a car to stop, against it's speed during the test."
+
+#| echo: false
+
+library(ggplot2)
+ggplot(cars, aes(x = speed, y = dist)) +
+  geom_point()
+```
+
+```{r}
+#| echo: false
+
+library(ggplot2)
+
+data = data(InsectSprays)
+
+head(InsectSprays)
+```
+
+```{r}
+#| echo: false
+ggplot(data = InsectSprays, aes(x = spray, y = count, fill = spray)) +
+  geom_boxplot(alpha = 0.6) +
+  ggtitle("Insect sprays boxplots")
+```
+
