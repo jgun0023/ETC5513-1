@@ -1,0 +1,7 @@
+---
+title: "Seminar 5"
+format: html
+---
+
+.gitignore - ignore files 
+- * -> ignore all
