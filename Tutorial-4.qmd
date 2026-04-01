@@ -2,6 +2,7 @@
 title: "week4"
 format: html
 editor: visual
+bibliography: references.bib
 ---
 
 ## Task 1
@@ -17,12 +18,3 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
   geom_point() +
   theme_minimal()
 ```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
